@@ -9,5 +9,5 @@ provider:
 functions:
   myLamdaFunction:
     handler: src/handler.myLamdaFunction
-    timeout:60 # seconds
+    timeout: 60 # seconds
     memorySize: 128 # mb
