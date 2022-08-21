@@ -2,7 +2,7 @@ service: basic-serverless-lamda
 
 provider:
   name: aws
-  runtime: nodejs16.x
+  runtime: nodejs12.x
   stage: dev
   region: us-east-1
 
@@ -11,3 +11,5 @@ functions:
     handler: src/handler.myLamdaFunction
     timeout: 60 # seconds
     memorySize: 128 # mb
+plugins:
+  - serverless-offline
