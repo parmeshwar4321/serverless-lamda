@@ -1,3 +1,5 @@
+org: parmeshwar4321
+console: true
 service: basic-serverless-lamda
 
 provider:
